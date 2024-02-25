@@ -1,0 +1,129 @@
+* {
+  font-size: 14px;
+  color: #FFF;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+* a {
+  text-decoration: none;
+}
+* ul, * li, * ol {
+  list-style: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+body .wrapper .container .background {
+  min-height: 100vh;
+  position: relative;
+}
+body .wrapper .container .background video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .wrapper .container .background header {
+  top: 30px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 25px;
+  height: 90px;
+  width: 1050px;
+  background-color: rgba(75, 129, 157, 0.4);
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-direction: row;
+  align-items: center;
+}
+body .wrapper .container .background header .header__elements {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+body .wrapper .container .background header .header__elements .header__logo {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Anta", sans-serif;
+}
+body .wrapper .container .background header .header__elements .header__nav .header__ul {
+  display: flex;
+  gap: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body .wrapper .container .background header .header__elements .header__nav .header__ul li a {
+  font-size: 12px;
+}
+body .wrapper .container .background header .header__elements .header__btn {
+  padding: 15px 20px;
+  border: #fff 2px solid;
+  border-radius: 15px;
+}
+body .wrapper .container .background header .header__elements .header__btn a {
+  font-weight: 700;
+  font-size: 12px;
+}
+body .wrapper .container .background header .header__elements .header__btn:hover {
+  background-color: #FFF;
+  transition: 0.2s ease;
+}
+body .wrapper .container .background header .header__elements .header__btn:hover a {
+  color: #000;
+  font-weight: 700;
+}
+body .wrapper .container .background .hero {
+  display: flex;
+  flex-direction: column;
+  gap: 35vh;
+}
+body .wrapper .container .background .hero .text__side {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 70px;
+}
+body .wrapper .container .background .hero .text__side .pre__logo {
+  font-size: 24px;
+  font-family: "Anta", sans-serif;
+}
+body .wrapper .container .background .hero .text__side .logo {
+  font-size: 210px;
+  font-family: "Anta", sans-serif;
+}
+body .wrapper .container .background .hero .button {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+body .wrapper .container .background .hero .button .hero__button {
+  max-width: 187px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 18px 60px;
+  border: 2px solid #fff;
+}
+body .wrapper .container .background .hero .button .hero__button a {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+body .wrapper .container .background .hero .button .hero__button:hover {
+  background-color: #fff;
+}
+body .wrapper .container .background .hero .button .hero__button:hover a {
+  color: #000;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
