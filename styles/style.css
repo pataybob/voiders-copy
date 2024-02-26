@@ -15,11 +15,11 @@ body {
   padding: 0;
   margin: 0;
 }
-body .wrapper .container .background {
+body .wrapper .video-container .background {
   min-height: 100vh;
   position: relative;
 }
-body .wrapper .container .background video {
+body .wrapper .video-container .background video {
   position: absolute;
   left: 0;
   top: 0;
@@ -28,7 +28,7 @@ body .wrapper .container .background video {
   -o-object-fit: cover;
      object-fit: cover;
 }
-body .wrapper .container .background header {
+body .wrapper .video-container .background header {
   top: 30px;
   position: relative;
   margin: 0 auto;
@@ -43,63 +43,63 @@ body .wrapper .container .background header {
   flex-direction: row;
   align-items: center;
 }
-body .wrapper .container .background header .header__elements {
+body .wrapper .video-container .background header .header__elements {
   gap: 30px;
   display: flex;
   align-items: center;
 }
-body .wrapper .container .background header .header__elements .header__logo {
+body .wrapper .video-container .background header .header__elements .header__logo {
   font-size: 32px;
   font-weight: 700;
   font-family: "Anta", sans-serif;
 }
-body .wrapper .container .background header .header__elements .header__nav .header__ul {
+body .wrapper .video-container .background header .header__elements .header__nav .header__ul {
   display: flex;
   gap: 30px;
   font-weight: 700;
   text-transform: uppercase;
 }
-body .wrapper .container .background header .header__elements .header__nav .header__ul li a {
+body .wrapper .video-container .background header .header__elements .header__nav .header__ul li a {
   font-size: 12px;
 }
-body .wrapper .container .background header .header__elements .header__btn {
+body .wrapper .video-container .background header .header__elements .header__btn {
   padding: 15px 20px;
   border: #fff 2px solid;
   border-radius: 15px;
 }
-body .wrapper .container .background header .header__elements .header__btn a {
+body .wrapper .video-container .background header .header__elements .header__btn a {
   font-weight: 700;
   font-size: 12px;
 }
-body .wrapper .container .background header .header__elements .header__btn:hover {
+body .wrapper .video-container .background header .header__elements .header__btn:hover {
   background-color: #FFF;
   transition: 0.2s ease;
 }
-body .wrapper .container .background header .header__elements .header__btn:hover a {
+body .wrapper .video-container .background header .header__elements .header__btn:hover a {
   color: #000;
   font-weight: 700;
 }
-body .wrapper .container .background .hero {
+body .wrapper .video-container .background .hero {
   display: flex;
   flex-direction: column;
-  gap: 35vh;
+  gap: 250px;
 }
-body .wrapper .container .background .hero .text__side {
+body .wrapper .video-container .background .hero .text__side {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   top: 70px;
 }
-body .wrapper .container .background .hero .text__side .pre__logo {
+body .wrapper .video-container .background .hero .text__side .pre__logo {
   font-size: 24px;
   font-family: "Anta", sans-serif;
 }
-body .wrapper .container .background .hero .text__side .logo {
+body .wrapper .video-container .background .hero .text__side .logo {
   font-size: 210px;
   font-family: "Anta", sans-serif;
 }
-body .wrapper .container .background .hero .button {
+body .wrapper .video-container .background .hero .button {
   position: relative;
   text-align: center;
   display: flex;
@@ -107,7 +107,7 @@ body .wrapper .container .background .hero .button {
   align-items: center;
   justify-content: center;
 }
-body .wrapper .container .background .hero .button .hero__button {
+body .wrapper .video-container .background .hero .button .hero__button {
   max-width: 187px;
   border-radius: 20px;
   display: flex;
@@ -115,15 +115,49 @@ body .wrapper .container .background .hero .button .hero__button {
   padding: 18px 60px;
   border: 2px solid #fff;
 }
-body .wrapper .container .background .hero .button .hero__button a {
+body .wrapper .video-container .background .hero .button .hero__button a {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
 }
-body .wrapper .container .background .hero .button .hero__button:hover {
+body .wrapper .video-container .background .hero .button .hero__button:hover {
   background-color: #fff;
 }
-body .wrapper .container .background .hero .button .hero__button:hover a {
+body .wrapper .video-container .background .hero .button .hero__button:hover a {
   color: #000;
   font-weight: 700;
+}
+body .wrapper section {
+  background: url(../images/backgrounds/section-modes.png) top no-repeat;
+  width: 100%;
+  height: 600px;
+}
+body .wrapper section .modes__container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+body .wrapper section .modes__container .modes {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-around;
+}
+body .wrapper section .modes__container .modes .pvp {
+  width: 500px;
+  height: 400px;
+  background-color: #12F0F0;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+body .wrapper section .modes__container .modes .pvp .platform .left__side .pvp__mode {
+  display: flex;
+  gap: 30px;
+}
+body .wrapper section .modes__container .modes .pvp .platform .left__side .pvp__mode h1 {
+  font-size: 32px;
+}
+body .wrapper section .modes__container .modes .pvp .platform .left__side p {
+  max-width: 50%;
 }/*# sourceMappingURL=style.css.map */
